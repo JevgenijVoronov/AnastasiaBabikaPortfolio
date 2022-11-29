@@ -16,6 +16,10 @@
     flex-wrap: wrap;
 }
 
+.header__btn {
+    display: none;
+}
+
 
 .header__nav a {
     color: var(--white);
@@ -42,11 +46,14 @@
     .header__nav {
         flex-direction: column;
         align-content: center;
+        align-items: center
         
     }
     .header__logo {
         width: 20px;
         height: 20px;
     }
+    .header__nav {display: none;}
+    .header__btn {display: block;}
 }
 

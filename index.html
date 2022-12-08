@@ -28,7 +28,11 @@
             <main>
                 <!-- main -->
                 <section class="main">
-                    <h1 class="main__txt">Hello world! I’m Anastasia Babika, <br> a <mark>Front-end developer</mark>, based in Riga.</h1>
+                    <h1 
+                        class="main__txt"
+                        data-animation="slideInLeft" 
+                        data-animation-delay=".3s"
+                    >Hello world! I’m Anastasia Babika, <br> a <mark>Front-end developer</mark>, based in Riga.</h1>
                     <button class="main__btn">Check to resume</button>
                 </section>
 
@@ -47,12 +51,12 @@
                 <section id="skills" class="skills">
                     <h3>Skills</h3>
                     <ul class="skills__list">
-                        <li class="skills__list-item"><img src="./assets/html.svg">HTML</li>
-                        <li class="skills__list-item"><img src="./assets/css.svg">CSS</li>
-                        <li class="skills__list-item"><img src="./assets/js.svg">JS</li>
-                        <li class="skills__list-item"><img src="./assets/react.svg">React</li>
-                        <li class="skills__list-item"><img src="./assets/git.svg">GIT</li>
-                        <li class="skills__list-item"><img src="./assets/github.svg">GitHub</li>
+                        <li class="skills__list-item" data-animation="slideInUp" data-animation-delay=".1s"><img src="./assets/html.svg">HTML</li>
+                        <li class="skills__list-item" data-animation="slideInDown" data-animation-delay=".3s"><img src="./assets/css.svg">CSS</li>
+                        <li class="skills__list-item" data-animation="slideInLeft" data-animation-delay=".5s"><img src="./assets/js.svg">JS</li>
+                        <li class="skills__list-item" data-animation="slideInRight" data-animation-delay=".7s"><img src="./assets/react.svg">React</li>
+                        <li class="skills__list-item" data-animation="zoomIn" data-animation-delay=".9s"><img src="./assets/git.svg">GIT</li>
+                        <li class="skills__list-item" data-animation="flipInY" data-animation-delay=".99s"><img src="./assets/github.svg">GitHub</li>
                     </ul>
                 </section>
 
@@ -135,5 +139,6 @@
         </div>
         <script src="./js/scroll.js"></script>
         <script src="./js/showHide.js"></script>
+        <script src="./js/animation.js"></script>
     </body>
 </html>
